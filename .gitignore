@@ -1,0 +1,53 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+*.pem
+*.key
+project.local.toml
+*_local.toml
+
+# Starter kit and per-machine editor settings
+_starter/
+.vscode/
+.idea/
+
+# Data/model outputs (keep directory placeholders)
+/data/raw/*
+!/data/raw/.gitkeep
+/data/interim/*
+!/data/interim/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/artifacts/*
+!/artifacts/.gitkeep
+/lightning_logs/
+/wandb/
+/mlruns/
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Deliberately TRACK source, notebooks, configs, requirements, docs and curated reports.
+# Do not ignore all CSV/PNG files: small result tables and figures belong in reports/.

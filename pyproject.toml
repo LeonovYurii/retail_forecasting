@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retail_forecasting"
+version = "0.1.0"
+description = "Reproducible Python analysis project"
+requires-python = ">=3.12"
+# Dependencies are managed in requirements.txt for this starter.
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["retail_forecasting*"]

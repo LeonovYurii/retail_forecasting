@@ -1,0 +1,21 @@
+# Pipeline contract to implement later, not a runnable pipeline by itself.
+mode = 'sample'
+seed = 42
+horizon_days = 16
+validation_windows = 3
+
+[selection]
+status = 'pending_data_review'
+state_count = 2
+stores_per_state = 3
+family_count = 5
+states = []
+store_ids = []
+families = []
+# Must be filled and validated before running sample mode. Empty lists MUST raise.
+selection_cutoff = ''
+
+[paths]
+raw_dir = 'data/raw'
+processed_dir = 'data/processed'
+output_dir = 'artifacts/sample'

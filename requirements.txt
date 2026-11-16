@@ -1,0 +1,10 @@
+# Initial data-science dependencies; verify versions in the target environment.
+# Record installed versions separately in requirements-environment.txt after checks.
+numpy
+pandas
+matplotlib
+scikit-learn
+ipykernel
+# Add statsmodels for the retail profile; other frameworks come in later stages.
+
+statsmodels

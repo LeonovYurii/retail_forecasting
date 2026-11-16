@@ -1,0 +1,10 @@
+# Pipeline contract to implement later. Full mode does NOT apply sample filters.
+mode = 'full'
+seed = 42
+horizon_days = 16
+validation_windows = 3
+
+[paths]
+raw_dir = 'data/raw'
+processed_dir = 'data/processed'
+output_dir = 'artifacts/full'
